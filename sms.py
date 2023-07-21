@@ -16,10 +16,8 @@ def main():
     choices = input("\nPlease choice: ")
 
     if choices == "1":
-        if platform.system() == "Windows":
-            os.system('cls')
-        else:
-            os.system('clear')
+        if platform.system() == "cls":
+         
 
         time.sleep(1)
         smsnumb = input("Input the number of the target: ")
